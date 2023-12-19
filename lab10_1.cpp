@@ -25,7 +25,8 @@ int main(){
             count[4]++ ;
 			student++ ;
         //and so on ... for grade = C, D, F
-        }else if(grade == '0'){ break;
+        }else if(grade == '0'){ 
+			break;
 		}else cout << "Wrong input. Please input again.\n" ;
 	
 	}while(true);
